@@ -5,13 +5,15 @@
   "main": "library.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/psychobunny/nodebb-plugin-user-level"
+    "url": "https://github.com/dealbee/nodebb-plugin-user-level"
   },
   "keywords": [
     "nodebb",
     "plugin",
     "user-level",
-    "shell"
+    "shell",
+    "user",
+    "level"
   ],
   "husky": {
     "hooks": {
@@ -26,12 +28,12 @@
     ]
   },
   "author": {
-    "name": "psychobunny",
-    "email": "psycho.bunny@hotmail.com"
+    "name": "lamcuongdat",
+    "email": "lam.cuong.dat@gmail.com"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/psychobunny/nodebb-plugin-user-level/issues"
+    "url": "https://github.com/dealbee/nodebb-plugin-user-level/issues"
   },
   "readmeFilename": "README.md",
   "nbbpm": {

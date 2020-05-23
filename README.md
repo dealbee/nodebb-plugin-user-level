@@ -21,8 +21,8 @@ Thông tin này được hiển thị trước tên của người dùng
 ![Image](screenshots/post-line.png?raw=true)
 
 Các thông tin thêm bao gồm:
-*Số điểm uy tín hiện có / số điểm uy tín cần có để đến cấp tiếp theo
-*Cấp độ tiếp theo
+* Số điểm uy tín hiện có / số điểm uy tín cần có để đến cấp tiếp theo
+* Cấp độ tiếp theo
 ![Image](screenshots/post-line-more.png?raw=true)
 
 ### Thông tin ở trang thông tin người dùng

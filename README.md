@@ -1,17 +1,32 @@
-# user-level Plugin for NodeBB
+# Plugin thêm cấp độ cho người dùng và hỗ trợ hiển thị thông tin này
 
-A starter kit for quickly creating NodeBB plugins. Comes with a pre-setup LESS file, server side JS script with an `action:app.load` hook, and a client-side script. Most plugins need at least one of the above, so this ought to save you some time. For a full list of hooks have a look at our [wiki page](https://github.com/NodeBB/NodeBB/wiki/Hooks), and for more information about creating plugins please visit our [documentation portal](https://docs.nodebb.org/).
+Plugin cho phép tạo và chỉnh sửa danh sách các cấp độ cho người dùng
 
-Fork this or copy it, and using your favourite text editor find and replace all instances of `nodebb-plugin-user-level` with `nodebb-plugin-your-plugins-name`. Change the author's name in the LICENSE and package.json files.
+Plugin hiển thị cấp độ người dùng ở các bài viết và trang thông tin người dùng
 
-## Hello World
+## Tạo và chỉnh sửa danh sách cấp độ người dùng
 
-Really simple, just edit `static/lib/main.js` and paste in `console.log('hello world');`, and that's it!
+Để tạo danh sách này, admin có thể truy cập vào đường dẫn `/admin/plugins/user-level`
 
-## Installation
+Mỗi cấp độ người dùng cần có tên cấp và giá trị tối thiểu của điểm uy tín để đạt được cấp độ này
 
-    npm install nodebb-plugin-user-level
+Thứ tự của các cấp người dùng có thể nằm lộn xộn (nhưng nên theo thứ tự để admins có thể dễ dàng quản lý)
+![Image](screenshots/admin.png?raw=true)
 
-## Screenshots
+## Hiển thị thông tin cấp độ người dùng
 
-Don't forget to add screenshots!
+### Thông tin ở các bài viết
+
+Thông tin này được hiển thị trước tên của người dùng
+![Image](screenshots/post-line.png?raw=true)
+
+Các thông tin thêm bao gồm:
+*Số điểm uy tín hiện có / số điểm uy tín cần có để đến cấp tiếp theo
+*Cấp độ tiếp theo
+![Image](screenshots/post-line-more.png?raw=true)
+
+### Thông tin ở trang thông tin người dùng
+
+Thông tin được hiển thị giữa họ tên (fullname) của người dùng và tên người dùng (username)
+![Image](screenshots/profile.png?raw=true)
+

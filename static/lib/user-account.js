@@ -7,8 +7,8 @@ $(window).on('action:ajaxify.end', function (event, data) {
                     class: 'level-description'
                 })
                 if (res['next-level']) {
-                    console.log(res)
-                    console.log(res['next-level']['min-reputation'])
+                    // console.log(res)
+                    // console.log(res['next-level']['min-reputation'])
                     var diff = res['next-level']['min-reputation'] - res['reputation']
                     divStatLable.text(`${diff} more reputation points to reach level ${res['next-level']['level-name']}`)
                 }

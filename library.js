@@ -35,7 +35,7 @@ plugin.addAdminNavigation = function (header, callback) {
 	callback(null, header);
 };
 var checkRegisterMiddleware = function (req, res, next) {
-	console.log(req);
+	// console.log(req);
 	if (!req.loggedIn) {
 		return helper.notAllowed(req, res);
 	}

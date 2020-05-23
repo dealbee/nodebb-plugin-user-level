@@ -1,0 +1,51 @@
+{
+  "name": "nodebb-plugin-user-level",
+  "version": "0.3.1",
+  "description": "A plugin to add user level",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/psychobunny/nodebb-plugin-user-level"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "user-level",
+    "shell"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "author": {
+    "name": "psychobunny",
+    "email": "psycho.bunny@hotmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/psychobunny/nodebb-plugin-user-level/issues"
+  },
+  "readmeFilename": "README.md",
+  "nbbpm": {
+    "compatibility": "^1.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.0.0",
+    "@commitlint/config-angular": "^7.1.2",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "husky": "^2.4.0"
+  },
+  "dependencies": {
+    "eslint": "^6.8.0",
+    "lint-staged": "^10.0.9"
+  }
+}

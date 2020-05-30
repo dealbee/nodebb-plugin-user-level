@@ -2,6 +2,8 @@
 	"id": "nodebb-plugin-user-level",
 	"url": "https://github.com/NodeBB/nodebb-plugin-user-level",
 	"library": "./library.js",
+	"languages": "languages",
+	"defaultLang": "en-GB",
 	"hooks": [
 		{
 			"hook": "static:app.load", "method": "init"

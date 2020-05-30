@@ -1,0 +1,18 @@
+{
+    "admin-add-level":"Level list",
+    "admin-add-item":"Add item",
+    "admin-save":"Save",
+    "admin-form-level-name":"Level name",
+    "admin-form-placeholder-level-name":"Level name",
+    "admin-form-placeholder-min-rep":"Min reputation",
+    "admin-min-rep":"Minimum reputation to reach this level",
+    "admin-item-edit":"Edit",
+    "admin-delete":"Delete",
+
+    "topic-REPUTATION":"REPUTATION",
+    "topic-next-level":"Next level",
+    "highest-level":"Highest level",
+    "level":"Level",
+
+    "user-account-popover":"more reputation point(s) to reach level"
+}

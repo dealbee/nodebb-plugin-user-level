@@ -1,0 +1,18 @@
+{
+    "admin-add-level":"Danh sách cấp độ người dùng",
+    "admin-add-item":"Thêm cấp độ",
+    "admin-save":"Lưu",
+    "admin-form-level-name":"Tên cấp độ",
+    "admin-form-placeholder-level-name":"Nhập tên",
+    "admin-form-placeholder-min-rep":"Nhập số điểm tín nhiệm tối thiểu",
+    "admin-min-rep":"Điểm tín nhiệm tối thiểu để đạt cấp độ này",
+    "admin-item-edit":"Chỉnh sửa",
+    "admin-delete":"Xóa",
+
+    "topic-REPUTATION":"ĐIỂM TÍN NHIỆM",
+    "topic-next-level":"Cấp độ tiếp theo",
+    "highest-level":"Cấp độ cao nhất",
+    "level":"Cấp",
+
+    "user-account-popover":"điểm tín nhiệm nữa để đạt cấp"
+}

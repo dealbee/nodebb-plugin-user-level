@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-user-level",
-  "version": "0.3.2",
+  "version": "0.4.2",
   "description": "A plugin to add user level",
   "main": "library.js",
   "repository": {
